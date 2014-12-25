@@ -30,7 +30,6 @@ public class DesktopLauncher {
 		config.addIcon("images/icon/icon128.png", FileType.Internal);
 		
 		logger = new Logger("", com.badlogic.gdx.utils.Logger.DEBUG);
-		logger.info("Starting game...");
 		new GameLwjglApp(new Main(logger), config, logger);
 	}
 }
