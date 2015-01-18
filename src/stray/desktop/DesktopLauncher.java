@@ -1,6 +1,7 @@
 package stray.desktop;
 
 import stray.Main;
+import stray.Settings;
 import stray.util.Logger;
 
 import com.badlogic.gdx.Files.FileType;
@@ -13,12 +14,12 @@ public class DesktopLauncher {
 	public static void main(String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		config.title = "";
-		config.width = 1280;
-		config.height = 720;
+		config.width = Settings.DEFAULT_WIDTH;
+		config.height = Settings.DEFAULT_HEIGHT;
 		if(arg.length > 0){
 			if(arg[0].equals("smaller")){
-				config.width = 864;
-				config.height = 648;
+				config.width = Settings.SMALLER_WIDTH;
+				config.height = Settings.SMALLER_HEIGHT;
 			}
 		}
 		config.foregroundFPS = Main.MAX_FPS;
