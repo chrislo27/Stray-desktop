@@ -19,13 +19,7 @@
 		<link>
 			<name>assets</name>
 			<type>2</type>
-			<locationURI>PROJECT_ROOT/core/assets</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/core/assets</locationURI>
 		</link>
 	</linkedResources>
-	<variableList>
-		<variable>
-			<name>PROJECT_ROOT</name>
-			<value>file:/C:/Users/megan/Desktop/libGDX-projects/stray</value>
-		</variable>
-	</variableList>
 </projectDescription>

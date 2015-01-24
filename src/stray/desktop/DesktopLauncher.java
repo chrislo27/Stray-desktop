@@ -16,12 +16,6 @@ public class DesktopLauncher {
 		config.title = "";
 		config.width = Settings.DEFAULT_WIDTH;
 		config.height = Settings.DEFAULT_HEIGHT;
-		if(arg.length > 0){
-			if(arg[0].equals("smaller")){
-				config.width = Settings.SMALLER_WIDTH;
-				config.height = Settings.SMALLER_HEIGHT;
-			}
-		}
 		config.foregroundFPS = Main.MAX_FPS;
 		config.backgroundFPS = Main.MAX_FPS;
 		config.resizable = false;
