@@ -18,7 +18,7 @@ public class DesktopLauncher {
 		config.height = Settings.DEFAULT_HEIGHT;
 		config.foregroundFPS = Main.MAX_FPS;
 		config.backgroundFPS = Main.MAX_FPS;
-		config.resizable = false;
+		//config.resizable = false;
 		config.vSyncEnabled = true;
 		
 		config.addIcon("images/icon/icon32.png", FileType.Internal);
